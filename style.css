@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #e6f2ff;
   line-height: 1.6;
-}
+  }
 
 .navbar {
   position: fixed;
@@ -101,14 +101,14 @@ ul li p {
 @media screen and (max-width: 600px) {
   .container {
     width: 100%;
-    padding: 120px;
+    padding: 10px;
+	 padding-top: 60px; 
   }
 }
 img {
   max-width: 100%;
   height: auto;
 }
-
  	
 body {
   display: flex;
