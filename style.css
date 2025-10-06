@@ -91,6 +91,23 @@ ul li p {
     margin: 140px 20px 40px 20px;
     padding: 20px;
   }
+/* Standaard desktopstijl */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Mobiele stijl */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 
  	
 body {
