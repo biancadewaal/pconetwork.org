@@ -101,7 +101,7 @@ ul li p {
 @media screen and (max-width: 600px) {
   .container {
     width: 100%;
-    padding: 60px;
+    padding: 100px;
   }
 }
 img {
