@@ -11,27 +11,6 @@ body {
   background-color: #e6f2ff;
   line-height: 1.6;
   }
-/* CSS */
-.hamburger {
-  font-size: 30px;
-  cursor: pointer;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-}
-
-#menu.hidden {
-  display: none;
-}
-
-#menu {
-  position: fixed;
-  top: 50px;
-  right: 10px;
-  background: white;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
 
 .navbar {
   position: fixed;
@@ -120,6 +99,22 @@ ul li p {
 
 /* Mobiele stijl */
 @media screen and (max-width: 600px) {
+	.hamburger-menu {
+		display: flex;}
+	}
+	.nav-links{
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: 60px;
+		right: 0;
+		width: 100%;
+		background-color: aqua;
+	}
+	nav-links.active{
+		display: flex;
+	}
+	}
   .container {
     width: 100%;
     padding: 10px;
