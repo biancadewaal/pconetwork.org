@@ -118,4 +118,43 @@ body {
 main {
   flex: 1;
 }
+}/* Verberg checkbox standaard */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger icoon */
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  padding: 15px;
+  background-color: #003366;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+/* Mobiel: toon hamburger en verberg menu */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  #menu-toggle:checked + .menu-icon + .navbar ul {
+    display: flex;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
 }
