@@ -7,16 +7,21 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
-  background-color: #e6f2ff;
-  line-height: 1.6;
-  }
+  font-family: arial, sans-serif;
+	line-height: 1.6;
+	background-image: url('images/background.jpg');
+  background-size: cover;         /* Past de afbeelding aan zodat hij het hele scherm vult */
+  background-repeat: no-repeat;   /* Voorkomt herhaling */
+  background-position: center;    /* Centreert de afbeelding */
+  background-attachment: fixed;   /* Zorgt dat de achtergrond blijft staan bij scrollen */
+}
+
 
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #003366;
+  background-color: #E63946;
   z-index: 1000;
 }
 .navbar ul {
@@ -70,7 +75,7 @@ ul li p {
 }
 
 .footer {
-  background-color: #003366;
+  background-color: #E63946;
   color: white;
   text-align: center;
   padding: 20px 0;
