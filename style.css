@@ -9,7 +9,7 @@
 body {
   font-family: arial, sans-serif;
 	line-height: 1.6;
-	background-image: url('images/background.jpg');
+	background-image: url('images/background2.jpg');
   background-size: cover;         /* Past de afbeelding aan zodat hij het hele scherm vult */
   background-repeat: no-repeat;   /* Voorkomt herhaling */
   background-position: center;    /* Centreert de afbeelding */
@@ -21,7 +21,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #E63946;
+  background-color: #004e7c;
   z-index: 1000;
 }
 .navbar ul {
@@ -75,7 +75,7 @@ ul li p {
 }
 
 .footer {
-  background-color: #E63946;
+  background-color: #004e7c;
   color: white;
   text-align: center;
   padding: 20px 0;
